@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 內减模式 */
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table; 
+  }
+  .clearfix:after {
+    clear:both;
+  }
+
+body{
+    background-color: white;
+
+}
+
+/* 版心 */
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 头部 */
+.header{
+    height: 42px;
+    background-color: violet;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
