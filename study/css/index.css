@@ -56,7 +56,14 @@ h1{
     
 }
 .nav li a{
+    display: block;
     height: 42px;
     line-height: 42px;
-    
+    padding: 0 9px;
+    font-size: 18px;
+    color: #050505;
+}
+
+.nav li a:hover{
+    border-bottom: 2px solid #00a4ff;
 }
