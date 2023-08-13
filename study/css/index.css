@@ -38,3 +38,25 @@ body{
     margin-bottom: 30px;
     
 }
+
+h1{
+    float: left;
+}
+/* 导航 */
+.nav{
+    float: left;
+    margin-left: 70px;
+    height: 42px;
+
+}
+
+.nav li{
+    float: left;
+    margin-right: 26px;
+    
+}
+.nav li a{
+    height: 42px;
+    line-height: 42px;
+    
+}
