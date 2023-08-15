@@ -287,7 +287,50 @@ h1{
 
 /* 版权 */
 .footer{
-    height: 417px;
+    height: 217px;
+    padding-top: 30px;
     background: #fff;
     margin-top: 40px;
+}
+.footer .left{
+    float: left;
+}
+.footer .left p{
+    font-size: 12px;
+    color: #666;
+    margin: 20px 0 10px;
+}
+.footer .left button{
+    margin: 14px;
+    width: 200px;
+    height: 40px;
+    background-color: #00a4ff;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer .left button:hover{
+    background-color: #fff;
+    color: #00a4ff;
+    border: 1px solid #00a4ff;
+}
+
+.footer .right{
+    float: right;
+}
+.footer .right dl{
+    float: right;
+    margin-left: 120px;
+}
+.footer .right dt{
+    font-size: 16px;
+    color: #494949;
+}
+.footer .right dd{
+    font-size: 12px;
+    color: #666;
+}
+.footer .right dl:nth-child(1){
+    margin-right: 30px;
 }
