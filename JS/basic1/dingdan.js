@@ -7,17 +7,17 @@ let total = price * num
 document.write(`    
 <table>
     <tr id="title">
-        <td>商品名称</td>
-        <td>商品价格</td>
-        <td>商品数量</td>
-        <td>总价</td>
-        <td>收货地址</td>
+        <th>商品名称</th>
+        <th>商品价格</th>
+        <th>商品数量</th>
+        <th>总价</th>
+        <th>收货地址</th>
     </tr>
     <tr>
         <td>小米手机青春PLUS</td>
-        <td>${price}</td>
+        <td>${price}元</td>
         <td>${num}</td>
-        <td>${total}</td>
+        <td>${total}元</td>
         <td>${address}</td>
     </tr>
 </table>

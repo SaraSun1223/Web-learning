@@ -7,9 +7,12 @@ table{
     align-items: center;
     border-collapse: collapse;
     height: 80px;
+    margin: 0 auto;
 }
-table,tr,td{
+table,th,td{
     border: 1px solid black;
+    padding: 5px 30px;
+    text-align: center;
 
 }
 .title{
@@ -17,5 +20,8 @@ table,tr,td{
     font-size: 14px;
     color: #000;
     text-align: center;
-    font-weight: 700;
+    font-weight: 1400;
+}
+td{
+    font-size: 12px;
 }
