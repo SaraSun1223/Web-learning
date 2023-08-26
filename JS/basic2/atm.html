@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let i = 1
+        let total = 0 
+        while(i!=0){
+            let num = +prompt(`请输入您想要办理的业务：
+            1.存钱
+            2.取钱
+            3.查看余额
+            4.退出
+            `)
+            switch(num){
+                case 1:
+                    let increase = +prompt('请输入存钱金额：')
+                    total = total + increase
+                break
+                case 2:
+                    let decrease = +prompt('请输入取钱金额：')
+                    total = total - decrease
+                break             
+                case 3:
+                    alert(`当前余额为${total}元`)
+                break
+                case 4:
+                    i = 0
+                break
+                default:
+                    alert('Wrong number!')
+                break
+            }
+        }
+    </script>
+</body>
+</html>
